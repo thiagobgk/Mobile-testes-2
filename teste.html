@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/teste.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="cpanel-items-wrapper">
+			<div class="cpanel-items">
+				
+			</div>
+		</div>
+		<div class="control-panel absolute blur">
+			      
+			<img src="imgs/pessoa-001.jpg">
+		</div>
+  		<div class="back">
+			<img src="imgs/pessoa-001.jpg"></div> 
+				</div>
+			<div id="footer"><br/>
+			  I know the coding sucks, just wanted to see if it's possible.<br/>
+			  <br/><span style="font-weight:bold;">-webkit- only</span><br/><br/>
+			  Using HW acccelerated filters and transitions.<br/>
+			  If it's not working on Codepen please try  <a href="http://edob.me/ios7/ios7.htm">http://edob.me/ios7/ios7.htm</a> <br/><br/>
+			  I used base64 image because codepen had a problem loading the image in their thumbnail view. Bugs, bugs bugs.
+			</div>
+
+			<script>
+
+			
+				$(document).keydown(function(e){
+				    if (e.keyCode == 38) { 
+				       $('.control-panel').addClass('on');
+				       $('.cpanel-items').addClass('show');
+				    }
+					if (e.keyCode == 40) { 
+				       $('.control-panel').removeClass('on');
+				       $('.cpanel-items').removeClass('show');
+				    }
+				});
+			</script>
+</body>
+</html>

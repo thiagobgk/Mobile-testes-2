@@ -1,0 +1,516 @@
+body{
+	font-family: 'Lanenar';
+	overflow: hidden;
+}
+div.wrap-body{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+/*HEADER*/
+div.wrap-body header{
+	width: 100%;
+	height: 94px;
+	border-bottom: 2px solid #d6d6d6;
+	position: fixed;
+	top: 0;
+	background: #fff;
+}
+div.wrap-body header div.num-likes{
+	min-width: 117px;
+	height: 61px;
+	float: left;
+	margin: 0;
+	margin-top: 17px;
+	background: url('../imgs/icon-heart.png');
+	background-repeat: no-repeat;
+	background-position: 80px 16px;
+}
+div.wrap-body header div.num-likes p{
+	text-align: right;
+	font-size: 2.5em;
+	color: #d2d2d2;
+	height: 100%;
+	display: inline;
+	float: right;
+	margin-right: 35px;
+	padding-top: 6px;
+}
+div.wrap-body header a.icon-config{
+	width: 61px;
+	height: 61px;
+	display: block;
+	background: url('../imgs/icon-config.png');
+	cursor:pointer;
+	margin: 17px 22px;
+	margin-right: :;
+	float: left;
+}
+div.wrap-body header a.icon-config:hover{
+	background: url('../imgs/icon-config-on.png');
+}
+div.wrap-body header a.icon-message{
+	width: 61px;
+	height: 61px;
+	display: block;
+	background: url('../imgs/icon-message.png');
+	cursor:pointer;
+	margin: 17px 12px;
+	float: right;
+}
+div.wrap-body header a.icon-message:hover{
+	background: url('../imgs/icon-message-on.png');
+}
+div.wrap-body header a.icon-blink{
+	width: 61px;
+	height: 61px;
+	display: block;
+	background: url('../imgs/icon-blink.png');
+	cursor:pointer;
+	margin: 17px 22px;
+	margin-left: 0;
+	float: right;
+}
+div.wrap-body header a.icon-blink:hover{
+	background: url('../imgs/icon-blink-on.png');
+}
+/*FIM HEDAER*/
+
+
+/*CONTEUDO*/
+div.wrap-body section.content{
+	width: 100%;
+	height: 577px;
+	overflow-x: hidden;
+	background: url('../imgs/bg-content.png');
+	background-size: cover;
+	margin-top: 96px
+
+}
+
+div.wrap-body section.content div.people-list{
+	width: 91.04%;
+	height: auto;
+	margin: 0px auto;
+}
+div.wrap-body section.content div.people-list ul{
+	list-style: none;
+}
+div.wrap-body section.content div.people-list li{
+	float: left;
+	width: 90px;
+	height: 91px;
+	margin-right: 7px;
+	margin-bottom: 11px;
+	background-color: #000;
+
+}
+div.wrap-body section.content div.info-user{
+	width: 91.04%;
+	margin: 0 auto;
+}
+div.wrap-body section.content div.info-user div.swipe{
+	width: 100%;
+	height: 277px;
+	overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    margin-top: 25px;
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap > div {
+    float:left;
+    width:100%;
+    height: 277px;
+    position: relative;
+}
+.banner img{
+	border: none;
+	margin: 0 auto;
+	width: 100%;
+}
+
+div.wrap-body section.content div.info-user div.infos-user{
+	width: 100%;
+	margin: 0 auto;
+}
+div.wrap-body section.content div.info-user div.infos-user p{
+	font-size: 29px;
+	color: #bababa;
+}
+div.wrap-body section.content div.info-user div.infos-user p > span{
+	color: #ff813d;
+}
+div.wrap-body section.content div.info-user div.infos-user ul{
+	list-style: none;
+	width: 100%;
+	padding: 0;
+}
+div.wrap-body section.content div.info-user div.infos-user li{
+	width: 69px;
+	height: 69px;
+	float: left;
+	margin: 4.5px;
+	background: #f03;
+}
+
+/*FIM CONTEUDO*/
+
+/*FOOTER*/
+div.wrap-body footer{
+	width: 100%;
+	height: 125px;
+	border-top: 2px solid #d6d6d6;
+	position: fixed;
+	bottom: 0px;
+}
+div.wrap-body footer nav{
+	width: 100%;
+	height: inherit;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+div.wrap-body footer nav ul{
+	list-style: none;
+}
+div.wrap-body footer nav li{
+	float: left;
+	width: 50%;
+}
+div.wrap-body footer nav li div{
+	width: 100%;
+	height: inherit;
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 3px;
+	cursor: pointer;
+}
+div.wrap-body footer nav li div:hover > p{
+	color: #ff813d;
+}
+div.wrap-body footer nav li div div.icon-pessoas:hover{
+	background: url('../imgs/icon-pessoas-on.png') no-repeat;
+}
+div.wrap-body footer nav li div div.icon-timeline:hover{
+	background: url('../imgs/icon-pessoas-on.png') no-repeat;
+}
+div.wrap-body footer nav li div div.icon-pessoas{
+	width: 53px;
+	height: 46px;
+	display: block;
+	background: url('../imgs/icon-pessoas.png') no-repeat;
+	margin: 0 auto;
+
+}
+div.wrap-body footer nav li div div.icon-cancelar{
+	width: 39px;
+	height: 38px;
+	display: block;
+	background: url('../imgs/icon-cancelar.png') no-repeat;
+	margin: 10px auto;
+
+}
+div.wrap-body footer nav li div div.icon-blinkar{
+	width: 58px;
+	height: 53px;
+	display: block;
+	background: url('../imgs/icon-blinkar.png') no-repeat;
+	margin: 7px auto;
+
+}
+div.wrap-body footer nav li div div.icon-timeline{
+	width: 48px;
+	height: 48px;
+	display: block;
+	background: url('../imgs/icon-timeline.png') no-repeat;
+	margin: 0 auto;
+}
+div.wrap-body footer nav li div p{
+	text-align: center;
+	width: 100%;
+	font-size: 28px;
+	color: #bababa;
+	margin: 0 auto;
+}
+
+/*FIM FOOTER*/
+
+
+
+/*MEDIAS QUERIES*/
+
+@media screen and (min-width:320px) and (max-width:479px){
+	div.wrap-body header{
+		width: 100%;
+		height: 76px;
+		border-bottom: 2px solid #d6d6d6;
+		position: fixed;
+		top: 0;
+		background: #fff;
+		z-index: 999;
+	}
+	div.wrap-body section.content{
+		width: 100%;
+		height: 577px;
+		overflow-x: hidden;
+		background: url('../imgs/bg-content.png');
+		background-size: cover;
+		margin-top: 76px
+
+}
+
+	div.wrap-body header div.num-likes{
+		min-width: 87px;
+		height: 61px;
+		float: left;
+		margin: 0;
+		margin-top: 11px;
+		background: url('../imgs/icon-heart.png');
+		background-repeat: no-repeat;
+		background-position: 50px 16px;
+	}
+	div.wrap-body header div.num-likes p {
+		margin-right: 42px
+	}
+	div.wrap-body header a.icon-config{
+		width: 41px;
+		height: 41px;
+		display: block;
+		background: url('../imgs/icon-config.png');
+		background-size: contain;
+		cursor:pointer;
+		margin: 17px 22px;
+		margin-right: :;
+		float: left;
+	}
+	div.wrap-body header a.icon-config:hover{
+		background: url('../imgs/icon-config-on.png');
+		background-size: contain;
+	}
+	div.wrap-body header a.icon-message{
+		width: 41px;
+		height: 41px;
+		display: block;
+		background: url('../imgs/icon-message.png');
+		background-size: contain;
+		cursor:pointer;
+		display: block;
+		margin: 17px 12px;
+		float: right;
+	}
+	div.wrap-body header a.icon-message:hover{
+		background: url('../imgs/icon-message-on.png');
+		background-size: contain;
+	}
+	div.wrap-body header a.icon-blink{
+		width: 41px;
+		height: 41px;
+		display: block;
+		background: url('../imgs/icon-blink.png');
+		background-size: contain;
+		cursor:pointer;
+		display: block;
+		margin: 17px 22px;
+		margin-left: 0;
+		float: right;
+	}
+	div.wrap-body header a.icon-blink:hover{
+		background: url('../imgs/icon-blink-on.png');
+		background-size: contain;
+	}
+
+	div.wrap-body footer{
+		width: 100%;
+		height: 105px;
+		border-top: 2px solid #d6d6d6;
+		position: fixed;
+		bottom: 0px;
+		background:#fff;
+		z-index: 999;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:800px){
+	div.wrap-body header{
+		width: 100%;
+		height: 94px;
+		border-bottom: 2px solid #d6d6d6;
+		position: fixed;
+		top: 0;
+		background: #fff;
+		z-index: 999;
+	}
+
+	div.wrap-body header div.num-likes{
+		min-width: 87px;
+		height: 61px;
+		float: left;
+		margin: 0;
+		margin-top: 11px;
+		position: relative;
+		clear: both;
+		background: url('../imgs/icon-heart.png');
+		background-repeat: no-repeat;
+		background-position: 50px 16px;
+	}
+	div.wrap-body header div.num-likes p {
+		margin-right: 42px
+	}
+	div.wrap-body header a.icon-config{
+		width: 61px;
+		height: 61px;
+		display: block;
+		background: url('../imgs/icon-config.png');
+		background-size: contain;
+		cursor:pointer;
+		margin: 17px 22px;
+		margin-right: :;
+		float: left;
+	}
+	div.wrap-body header a.icon-config:hover{
+		background: url('../imgs/icon-config-on.png');
+		background-size: contain;
+	}
+	div.wrap-body header a.icon-message{
+		width: 61px;
+		height: 61px;
+		display: block;
+		background: url('../imgs/icon-message.png');
+		background-size: contain;
+		cursor:pointer;
+		margin: 17px 12px;
+		float: right;
+	}
+	div.wrap-body header a.icon-message:hover{
+		background: url('../imgs/icon-message-on.png');
+		background-size: contain;
+	}
+	div.wrap-body header a.icon-blink{
+		width: 61px;
+		height: 61px;
+		display: block;
+		background: url('../imgs/icon-blink.png');
+		background-size: contain;
+		cursor:pointer;
+		margin: 17px 22px;
+		margin-left: 0;
+		float: right;
+	}
+	div.wrap-body header a.icon-blink:hover{
+		background: url('../imgs/icon-blink-on.png');
+		background-size: contain;
+	}
+
+	div.wrap-body footer{
+		width: 100%;
+		height: 105px;
+		border-top: 2px solid #d6d6d6;
+		position: fixed;
+		bottom: 0px;
+		background:#fff;
+		z-index: 999;
+	}
+	
+}
+
+
+/*FIM QUERIES */
+
+div.wrap-film{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*background-color: rgba(0,0,0,0.3);
+	clip: rect(0, 64%, 100%, 36%);*/
+	z-index: 999;
+	display: none;
+	overflow: hidden;
+}
+div.wrap-film div.content-config{
+	width: 64%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	left: -64%;
+	top: 0;
+}
+div.wrap-film div.film{
+	width: 36%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 0%;
+	top: 0;
+}
+div.wrap-film div.content-config svg{
+	width: 90px;
+	height: 91px;
+	position: absolute;
+	background-color: transparent;
+	top: 0;
+	left: 0;
+}
+
+a.icon-back{
+	width: 61px;
+	height: 61px;
+	position: absolute;
+	top: 17px;
+	left: 22px;
+	background: url('../imgs/icon-back.png');
+	display: block;
+	z-index: 999999;
+}
+a.icon-meu-perfil{
+	position: absolute;
+	top: 120px;
+	left: 22px;
+	background: url('../imgs/icon-meu-perfil.png') top left no-repeat;
+	display: block;
+	padding-left: 35px;
+	text-decoration: none;
+	z-index: 999999;
+	font-size: 30px;
+	color: #d2d2d2;
+}
+a.icon-logout{
+	position: absolute;
+	top: 189px;
+	left: 22px;
+	background: url('../imgs/icon-logout.png') top left no-repeat;
+	padding-left: 35px;
+	text-decoration: none;
+	display: block;
+	z-index: 999999;
+	font-size: 30px;
+	color: #d2d2d2;
+}
+a.icon-sair{
+	position: absolute;
+	top: 252px;
+	left: 22px;
+	background: url('../imgs/icon-sair.png') top left no-repeat;
+	padding-left: 35px;
+	text-decoration: none;
+	display: block;
+	z-index: 999999;
+	font-size: 30px;
+	color: #d2d2d2;
+}
+.svg-image-blur{
+	width: 90px;
+	height: 91px;
+	position: absolute;
+}
+.svg-image { filter:url(#blur-effect-1); }

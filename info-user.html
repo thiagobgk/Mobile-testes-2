@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Principal - After Login</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/swipe.js"></script>	
+</head>
+<body>
+	<div class="wrap-body">
+		<header>
+			
+			<a class="icon-config"></a>
+			<div class="num-likes">
+				
+				<p>
+
+					99
+
+				</p>
+
+			</div>
+			<a class="icon-blink"></a>
+			<a class="icon-message"></a>
+
+		</header>
+		<section class="content">
+			
+			
+			<div class="info-user">
+				<div class="swipe" id="slider">
+
+	                <div class="swipe-wrap">
+
+	                    <div class="banner banner-001">
+	                        <img src="imgs/foto-001.png">
+	                    </div>
+	                    <div class="banner banner-002">
+	                        <img src="imgs/foto-001.png">
+	                    </div>
+	                    <div class="banner banner-003">
+	                    	
+	                    	<img src="imgs/foto-001.png">
+
+	                    </div>
+
+
+	                </div>
+	               
+
+	            </div>
+
+	            <script>
+
+            		$(document).ready(function($) {
+				        window.mySwipe = new Swipe(document.getElementById('slider'), {
+				            startSlide: 0,
+				            speed: 400,
+				            auto: 3000,
+				            continuous: true, 
+				            disableScroll: false,
+				            stopPropagation: false
+				        });  
+				    });
+
+	            </script>
+
+	             <div class="infos-user">
+					<p>Nick: <span>Juh</span><p>
+					<p>Idade: <span>18 anos</span><p>
+					<p>Interesses em comum:<p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+                </div>
+
+
+			</div>	
+
+
+		</section>
+		<footer>
+			<nav>
+				<ul>
+					<li>
+						<div>
+							<div class="icon-cancelar"></div>
+							<p>Cancelar</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<div class="icon-blinkar"></div>
+							<p style="margin-top: -10px">Blinkar</p>
+						</div>						
+					</li>
+				</ul>
+			</nav>
+		</footer>
+	</div>	
+</body>
+</html>

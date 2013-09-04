@@ -495,7 +495,6 @@ a.icon-meu-perfil{
 	text-decoration: none;
 	z-index: 999999;
 	font-size: 30px;
-	color: #d2d2d2;
 	color: #7a7776;
 }
 a.icon-logout{
@@ -522,3 +521,4 @@ a.icon-sair{
 	font-size: 30px;
 	color: #7a7776;
 }
+

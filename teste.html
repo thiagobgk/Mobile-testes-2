@@ -18,7 +18,7 @@
 			<img src="imgs/pessoa-001.jpg">
 		</div>
   		<div class="back">
-			<img src="imgs/pessoa-001.jpg"></div> 
+			<img src="imgs/pessoa-002.jpg"></div> 
 				</div>
 			<div id="footer"><br/>
 			  I know the coding sucks, just wanted to see if it's possible.<br/>
@@ -41,6 +41,18 @@
 				       $('.cpanel-items').removeClass('show');
 				    }
 				});
+
+				$(document).ready(function(){
+					
+				        html2canvas($('#wrapper'), {
+				            onrendered: function (canvas) {
+				                var img = canvas.toDataURL("image/jpg");
+				                $('div.control-panel img').attr('src',img)
+				            }
+				        })
+				                
+				      
+				})
 			</script>
 </body>
 </html>

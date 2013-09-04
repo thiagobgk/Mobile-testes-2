@@ -1,0 +1,44 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Blur.js</title>
+  
+	<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+	
+	<script type='text/javascript' src='js/blur.js'></script>
+  
+	<style type='text/css'>
+		body{
+			margin:0;padding:0;
+			color:#fff;
+			font-family:arial;
+			text-shadow:0 2px 2px #000;
+			
+			background:top left;
+			background-image:url('imgs/pessoa-001.jpg');
+			
+		}
+		.circle{
+			margin:0;
+			width:64%;
+			height:100%;
+			left: 0px;
+			position: absolute;
+						
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="circle">dadasdasd</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.circle').blurjs({
+				draggable: false,
+				overlay: 'rgba(255,255,255,0.45)',
+				radius:40
+			});
+		});
+	</script>
+</body>
+</html>

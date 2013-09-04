@@ -438,30 +438,43 @@ div.wrap-film{
 	overflow: hidden;
 }
 div.wrap-film div.content-config{
-	height: 100%;
-	background-color: rgba(255,255,255,0.8);
-	position: absolute;
 	margin:0;
+	width:64%;
 	height:100%;
 	left: -64%;
+	position: absolute;
+	z-index: 70;
 }
 div.wrap-film div.film{
-	width: 36%;
+	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.4);
 	position: absolute;
-	right: 0%;
-	top: 0;
-}
-div.wrap-film div.content-config svg{
-	width: 90px;
-	height: 91px;
-	position: absolute;
-	background-color: transparent;
-	top: 0;
 	left: 0;
+	top: 0;
+	display: none;
+	z-index:50;
 }
-
+div.wrap-film div.content-blur{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+	clip: rect(0px 200px 700px 00px);
+	z-index: 55;
+}
+div.wrap-film div.fundo-blur{
+	width: 64%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background-color: rgba(255,255,255,0.45);
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
 a.icon-back{
 	width: 61px;
 	height: 61px;
@@ -483,6 +496,7 @@ a.icon-meu-perfil{
 	z-index: 999999;
 	font-size: 30px;
 	color: #d2d2d2;
+	color: #7a7776;
 }
 a.icon-logout{
 	position: absolute;
@@ -494,7 +508,7 @@ a.icon-logout{
 	display: block;
 	z-index: 999999;
 	font-size: 30px;
-	color: #d2d2d2;
+	color: #7a7776;
 }
 a.icon-sair{
 	position: absolute;
@@ -506,11 +520,5 @@ a.icon-sair{
 	display: block;
 	z-index: 999999;
 	font-size: 30px;
-	color: #d2d2d2;
+	color: #7a7776;
 }
-.svg-image-blur{
-	width: 90px;
-	height: 91px;
-	position: absolute;
-}
-.svg-image { filter:url(#blur-effect-1); }
